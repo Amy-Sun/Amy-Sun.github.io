@@ -11,6 +11,7 @@ and open the template in the editor.
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
         <title>Blog of Amy</title>
 
         <!-- Bootstrap -->
@@ -24,13 +25,39 @@ and open the template in the editor.
         <![endif]-->
     </head>
     <body class="home-template">
+        <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll navbar-info">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">导航</a>
+                </div>
+                <div class="navbar-collapse collapse in" id="navbar" aria-expanded="true">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="diary.html">日志</a>
+                        </li>
+                        <li>
+                            <a href="news.html">新闻</a>
+                        </li>
+                        <li>
+                            <a href="massage.html">留言</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <header class="main-header" style="background-image: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg);height:224px; ">
             <div class="class">
                 <h1>
                     <span style="color:#f0e5da">
-                        <span style="font-size:85px">
-                            <span style="font-family:Comic Sans MS,cursive">
+                        <span style="font-size:200%">
+                            <span class="timu" style="font-family:Comic Sans MS,cursive;">
                                 Blog&nbsp; of&nbsp; Amy
                             </span>
                         </span>
@@ -97,25 +124,25 @@ and open the template in the editor.
                         <article class="post">
                             <div class="post-head">
                                 <ul>
-                                    <li><span style="color:#ff0000"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:24px">真正的才智是刚毅的志向。&nbsp;&mdash;&mdash; 拿破仑</span></span></tt></big></span>&nbsp;</li>
+                                    <li><span style="color:#ff0000"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:120%">真正的才智是刚毅的志向。&nbsp;&mdash;&mdash; 拿破仑</span></span></tt></big></span>&nbsp;</li>
                                 </ul>
 
                                 <p>&nbsp;</p>
 
                                 <ul>
-                                    <li><span style="color:#ff6600"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:24px">感情有着极大的鼓舞力量，因此，它是一切道德行为的重要前提，谁要是没有强烈的志向，也就不能够热烈地把这个志向体现于事业中。&nbsp;&mdash;&mdash; 凯洛夫</span></span></tt></big></span></li>
+                                    <li><span style="color:#ff6600"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:120%">感情有着极大的鼓舞力量，因此，它是一切道德行为的重要前提，谁要是没有强烈的志向，也就不能够热烈地把这个志向体现于事业中。&nbsp;&mdash;&mdash; 凯洛夫</span></span></tt></big></span></li>
                                 </ul>
 
                                 <p>&nbsp;</p>
 
                                 <ul>
-                                    <li><span style="color:#ffff00"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:24px">勇敢坚毅真正之才智乃刚毅之志向。&nbsp;&mdash;&mdash; 拿破仑</span></span></tt></big></span></li>
+                                    <li><span style="color:#ffff00"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:120%">勇敢坚毅真正之才智乃刚毅之志向。&nbsp;&mdash;&mdash; 拿破仑</span></span></tt></big></span></li>
                                 </ul>
 
                                 <p>&nbsp;</p>
 
                                 <ul>
-                                    <li><span style="color:#1abc9c"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:24px">志向不过是记忆的奴隶，生气勃勃地降生，但却很难成长。&nbsp;&mdash;&mdash; 莎士比亚</span></span></tt></big></span></li>
+                                    <li><span style="color:#1abc9c"><big><tt><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:120%">志向不过是记忆的奴隶，生气勃勃地降生，但却很难成长。&nbsp;&mdash;&mdash; 莎士比亚</span></span></tt></big></span></li>
                                 </ul>
 
                             </div>
@@ -203,14 +230,50 @@ and open the template in the editor.
                 </div>
             </div>
         </section>
-        <div class="copyright">
+
+        <section class="pagination">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <span>Copyright &copy; 2017-2117 Amy Sun</span>  
+                    <div class="col-md-12 main-content">                        
+                        <div class="center">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination" >
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+
+        <section class="content-wrap">
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 main-content">
+                            <span>Copyright &copy; 2017-2117 Amy Sun</span>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
