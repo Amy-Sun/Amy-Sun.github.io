@@ -10,27 +10,36 @@ and open the template in the editor.
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
         <title>Blog of Amy</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+        <link rel="bookmark" href="img/favicon.ico"/>
+        <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
           <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body class="home-template">
+        
 
+    </head>
+    <body>
         <header class="main-header" style="background-image: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg);height:224px; ">
             <div class="class">
                 <h1>
                     <span style="color:#f0e5da">
                         <span style="font-size:200%">
-                            <span class="timu" style="font-family:Comic Sans MS,cursive">
+                            <span class="timu" style="font-family:Comic Sans MS,cursive;">
                                 Blog&nbsp; of&nbsp; Amy
                             </span>
                         </span>
@@ -40,18 +49,7 @@ and open the template in the editor.
             </div>
 
         </header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="navbar-header">
-                        <span class="nav-toggle-button collapsed" data-toggle="collapse" data-target="#main-menu">
-                            <span class="sr-only">Toggle navigation</span>
-                            <i class="fa fa-bars"></i>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <nav class="main-navigation">
             <div class="container">
                 <div class="row">
@@ -67,7 +65,7 @@ and open the template in the editor.
                                 <li  role="presentation"><a href="index.html">首页</a></li>
                                 <li  role="presentation"><a href="diary.html">日志</a></li>
                                 <li  role="presentation"><a href="news.html">新闻</a></li>
-                                <li  class="nav-current" role="presentation" class="active"><a href="massage.html">留言</a></li>
+                                <li  class="nav-current" role="presentation"><a href="massage.html">留言</a></li>
                             </ul>   
                         </div>
                     </div>
@@ -77,72 +75,73 @@ and open the template in the editor.
         <section class="content-wrap">
             <div class="container">
                 <div class="row">
-                    <main class="col-md-12 main-content">
 
-                        <article class="post">
-                            <div class="post-head">
-                                <p><span style="color:#e67e22"><span style="font-size:2.5em">欢迎留言</span></span></p>
-                            </div>
-                        </article>
-                        <article class="post">
-                            <div class="post-head">
+                    <article class="post">
+                        <div class="post-head">
+                            <p><span style="color:#e67e22"><span style="font-size:2.5em">欢迎留言</span></span></p>
+                        </div>
+                    </article>
 
-                                <form action="">
-                                    <table align="center" border="0" cellpadding="10" cellspacing="10" style="width:1000px">
-                                        <tbody>
-                                            <tr>
-                                                <td colspan="3" style="text-align:left">
-                                                    <span style="font-size:20px">
-                                                        <strong>留言信息</strong>
-                                                        <p>&nbsp;</p>
-                                                    </span>
-                                                </td>
-                                            </tr>
-                                            <tr> 
 
-                                                <td style="text-align:left"><span style="font-size:20px">用户名:<span style="color:#ff0000">* &nbsp;</span></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><input name="userName" required="required" type="text" /></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><span style="color:#2980b9">让我知道你是谁哦！</span></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align:left"><span style="font-size:20px"><p>&nbsp;</p>性别:<span style="color:#ff0000">* &nbsp;</span></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><p>&nbsp;</p><input checked="checked" name="userSex" type="radio" value="男" />男 <input name="userSex" type="radio" value="女" />女</span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><p>&nbsp;</p><span style="color:#2980b9">请选择你的性别！</span></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align:left"><span style="font-size:20px"><p>&nbsp;</p>qq/WeChat: &nbsp;</span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><input name="qq" type="text" /></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><span style="color:#2980b9">如果你愿意,可以留下qq或微信，更方便我们联系哦！</span></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align:left"><span style="font-size:20px">学校:<span style="color:#ff0000">* &nbsp;</span></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><input name="school" required="required" type="text" /></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><span style="color:#2980b9">我想知道我们是不是一个学校的呢？</span></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align:left"><span style="font-size:20px"><p>&nbsp;</p>邮箱地址:<span style="color:#ff0000">* &nbsp;</span></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><input name="userEmail" required="required" type="text" /></span></td>
-                                                <td style="text-align:left"><span style="font-size:20px"><span style="color:#2980b9">请填写您的常用邮箱，我们可以往来邮件哦！</span></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align:left"><span style="font-size:20px">给我留言:<span style="color:#ff0000">* &nbsp;</span></span></td>
-                                                <td colspan="2" style="text-align:left"><span style="font-size:20px"><textarea cols="100" name="userBasicInfo" required="required" rows="10"></textarea></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="3"><span style="font-size:20px"><input checked="checked" name="accept" required="required" type="checkbox" value="yes" /> 我已经仔细阅读并同意接受用户使用协议</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="3"><span style="font-size:20px"><input type="submit" value="确认" />&nbsp; <input type="reset" value="取消" /></span></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </form>
+                    <article class="post">
+                        <div class="post-head">
+                            <form class="form-horizontal"style="font-size:130%">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="inputName" >姓名<sup><span style="color:#ff0000">*</span></sup>：</label>
+                                    <div class="col-sm-8">
+                                        <input class="form-control" type="text" id="inputName" placeholder="Name" required="required">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="inputGender">性别<sup><span style="color:#ff0000">*</span></sup>：</label>
+                                    <div class="col-sm-2">
+                                        <input  type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>男
+                                        <input  type="radio" name="optionsRadios" id="optionsRadios2" value="option2">女
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="inputQQ/WeChat">QQ/WeChat：</label>
+                                    <div class="col-sm-8">
+                                        <input class="form-control" type="text" id="inputQQ/WeChat" placeholder="QQ/WeChat" required="required">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="inputSchool">学校<sup><span style="color:#ff0000">*</span></sup>：</label>
+                                    <div class="col-sm-8">
+                                        <input class="form-control" type="text" id="inputSchool" placeholder="School" required="required">
+                                    </div>
+                                </div>
 
-                                <p>&nbsp;</p>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="inputEmail">邮箱<sup><span style="color:#ff0000">*</span></sup>：</label>
+                                    <div class="col-sm-8">
 
-                            </div>
-                        </article>
-                    </main>
+                                        <input class="form-control" type="text" id="inputEmail" placeholder="Email" required="required">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="inputMessage">给我留言<sup><span style="color:#ff0000">*</span></sup>：</label>
+                                    <div class="col-sm-8">
+                                        <textarea rows="8"type="text" class="form-control" id="inputMessage" placeholder="Message" required="required"></textarea>
+                                    </div>
+                                </div>
+                                </main>
+                                <main class="col-md-12 main-content">
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <label class="checkbox">
+                                                <input type="checkbox" required="required"> 我以仔细阅读并接受用户使用协议
+                                            </label>
+                                            <p>&nbsp;</p>
+                                            <button type="submit" class="btn">确认</button>
+                                            <button type="cancle" class="btn">取消</button>
+                                        </div>
+                                    </div></main>
+                            </form>
+                        </div>
+
+                    </article>
+
                 </div>
             </div>
 
