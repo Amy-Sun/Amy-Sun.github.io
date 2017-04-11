@@ -1,13 +1,4 @@
-/*====================================================
-        Importing bootstrap less files
-====================================================*/
-/*====================================================
-        COLOR VARIABLE FOR THEME
-====================================================*/
-/* common */
-/*====================================================
-        common styles
-====================================================*/
+
 html,
 body {
     color: #505050;
@@ -1051,27 +1042,34 @@ ul {
     padding-left: 15px;
 }
 
-@media (max-width: 767px)
-.main-navigation {
-    text-align: left;
-}
-* {
-    box-sizing: border-box;
-}
-.navbar-header {
-    text-align: center;
-}
-.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-    content: "\f0c9";
-}
-:before {
-    box-sizing: border-box;
-}
-:after {
-    box-sizing: border-box;
-}
-::selection {
-    color: #ffffff;
-    background: #e67e22;
-    text-shadow: none;
+@media (max-width: 767px){
+    .main-navigation {
+        text-align: left;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .navbar-header {
+        text-align: center;
+    }
+    .navbar-header i {
+        height: 56px;
+        line-height: 56px;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+        content: "\f0c9";
+    }
+    :before {
+        box-sizing: border-box;
+    }
+    :after {
+        box-sizing: border-box;
+    }
+    ::selection {
+        color: #ffffff;
+        background: #e67e22;
+        text-shadow: none;
+    }
 }
